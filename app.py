@@ -69,7 +69,6 @@ def user_input(user_question):
     st.write("Reply: ", response["output_text"])
 
 def main():
-    st.set_theme("dark")
     st.set_page_config("BLABBERMOUTH")
     st.title("Blabber Mouth     🤖")
     st.header("Upload your pdf files and start asking questions")
